@@ -1,0 +1,9 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(green), to(red));
+  background: linear-gradient(green, red); }
+
+.demo {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  background: url(http://localhost:8080/images/dae1d81a06fdf2b57ade7caa82c187da.jpg); }
