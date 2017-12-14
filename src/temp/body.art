@@ -1,0 +1,16 @@
+<div class="container pubu-body">
+    <div class="row">
+      {{each list as value index}}
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src={{value.picUrl}} alt={{value.title}}>
+            <div class="caption">
+              <h3>{{value.title}}</h3>
+              <p>发布时间:{{value.ctime}}</p>
+              <p><a href={{value.url}} class="btn btn-danger" target="_blank">欣赏全貌<span class="badge">{{value.description}}</span></a> </p>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+</div>
